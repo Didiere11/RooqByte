@@ -14,6 +14,8 @@
 		691616F92379D06D006C313D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 691616F72379D06D006C313D /* LaunchScreen.storyboard */; };
 		691617042379D06D006C313D /* RooqByteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691617032379D06D006C313D /* RooqByteTests.swift */; };
 		6916170F2379D06D006C313D /* RooqByteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6916170E2379D06D006C313D /* RooqByteUITests.swift */; };
+		6964AEE5237B9EE9002BA3E6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964AEE4237B9EE9002BA3E6 /* DetailViewController.swift */; };
+		6980620B237B09DB001468FD /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6980620A237B09DB001468FD /* CellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6916170A2379D06D006C313D /* RooqByteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RooqByteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6916170E2379D06D006C313D /* RooqByteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RooqByteUITests.swift; sourceTree = "<group>"; };
 		691617102379D06D006C313D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6964AEE4237B9EE9002BA3E6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6980620A237B09DB001468FD /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				691616F52379D06D006C313D /* Assets.xcassets */,
 				691616F72379D06D006C313D /* LaunchScreen.storyboard */,
 				691616FA2379D06D006C313D /* Info.plist */,
+				6980620A237B09DB001468FD /* CellTableViewCell.swift */,
+				6964AEE4237B9EE9002BA3E6 /* DetailViewController.swift */,
 			);
 			path = RooqByte;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6980620B237B09DB001468FD /* CellTableViewCell.swift in Sources */,
 				691616F12379D067006C313D /* ViewController.swift in Sources */,
 				691616EF2379D067006C313D /* AppDelegate.swift in Sources */,
+				6964AEE5237B9EE9002BA3E6 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
